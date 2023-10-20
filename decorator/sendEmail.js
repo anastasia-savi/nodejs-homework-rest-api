@@ -16,7 +16,7 @@ const nodemailerConfig = {
 const transporter = nodemailer.createTransport(nodemailerConfig);
 
 const email = {
-  to: "walason965@czilou.com",
+  to: "test3@gmail.com",
   from: META_EMAIL,
   subject: "test email",
   html: "<p><strong>Test email</strong> from localhost:3000</p>",
